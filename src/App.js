@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStore } from 'redux';
-import { Provider,useSelector } from 'react-redux';
+import { Provider,useSelector,useDispatch } from 'react-redux';
 
 
 const reducer(state, action){
